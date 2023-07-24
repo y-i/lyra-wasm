@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyra P2P</title>
+  </head>
+  <body>
+    <audio id="audioElem" controls></audio>
+    <audio id="audioFromFileVoice" src="./audio/kokoro_1min.mp3" controls></audio>
+    <audio id="audioFromFileMusic" src="./audio/beat_thee_1min.mp3" controls></audio>
+    <div id="app"></div>
+    <div>
+      <span>Audio Type</span>
+      <label><input type="radio" name="audio-type" value="voice">音声</label>
+      <label><input type="radio" name="audio-type" value="music">音楽</label>
+    </div>
+    <div>
+      <span>Bitrate</span>
+      <label><input type="radio" name="bitrate" value="3200">3200</label>
+      <label><input type="radio" name="bitrate" value="6000">6000</label>
+      <label><input type="radio" name="bitrate" value="9200">9200</label>
+    </div>
+    <div>
+      <span>DTX</span>
+      <label><input type="radio" name="dtx" value="true">true</label>
+      <label><input type="radio" name="dtx" value="false">false</label>
+    </div>
+    <div>
+      <span>Download file</span>
+      <label><input type="radio" name="download" value="true">true</label>
+      <label><input type="radio" name="download" value="false">false</label>
+    </div>
+    <div>
+      <button id="changeButton">Change</button>
+      <button id="clearButton">Clear</button>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+[submodule "lyra"]
+	path = lyra
+	url = git@github.com:google/lyra.git

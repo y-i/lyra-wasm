@@ -1,0 +1,5 @@
+bazel-bin
+bazel-lyra-wasm
+bazel-out
+bazel-testlogs
+node_modules
